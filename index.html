@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2-way-data-binding</title>
+    <style media="screen">
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      Input1: <input data-key="inp1" type="text" value="">
+      Input2: <input data-key="inp2" type="text" value="">
+      Input3: <input data-key="inp3" type="text" value="">
+      Reflects Input1: <input data-key="inp1" type="text" value="">
+      Reflects Input2: <input data-key="inp2" type="text" value="">
+      Reflects Input3: <input data-key="inp3" type="text" value="">
+    </div>
+    <div>
+      <h3>Open the console to modify $scope variable attached on the window object to see changes</h3>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
